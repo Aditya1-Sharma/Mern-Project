@@ -10,11 +10,11 @@ export default function ListingItem({listing}) {
             <div className="p-3 flex flex-col gap-2 w-full ">
                 <p className='truncate text-lg font-semibold to-slate-700'>{listing.name}</p>
                 <div className=" flex items-center gap-1">
-                    <MdLocationOn className='h-4 w-4 text-green-700'></MdLocationOn>
+                    <MdLocationOn className='h-4 w-4 text-green-800'></MdLocationOn>
                     <p className='text-sm text-gray-700 truncate '>{listing.address}</p>
                 </div>
                 <div className="">
-                    <p class="line-clamp-2 text-sm text-gray-800">{listing.description}</p>
+                    <p class="line-clamp-2 text-sm text-gray-900">{listing.description}</p>
                 </div>
                 <div>
                     <p className='text-slate-700 mt-2 font-semibold flex items-center'>${' '}
