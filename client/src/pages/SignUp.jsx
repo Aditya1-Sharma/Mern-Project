@@ -13,6 +13,7 @@ export default function Signup() {
       [e.target.id]: e.target.value,
     });
   };
+  // console.log(formData);
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
@@ -70,7 +71,7 @@ export default function Signup() {
         </button>
         <OAuth></OAuth>
       </form>
-      <div className="flex gap-2 mt-5">
+      <div className="flex gap-2 mt-5 justify-center">
         <p>Have an account ?</p>
         <Link to={"/sign-in"}>
           <span className="text-blue-700">Sign in</span>
